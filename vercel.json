@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build:core && npm run build:web",
+  "outputDirectory": "apps/playground-web/dist",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+
